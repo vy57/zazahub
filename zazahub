@@ -58,7 +58,7 @@ local E = Window:NewTab("Trolling")
 local ESection = E:NewSection("Trolling")
 
 
-ESection:NewButton("RemX", "RemX, multi tool GUI, many features
+ESection:NewButton("RemX", "RemX, multi tool GUI, many features", function()
 loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
 end)
 
