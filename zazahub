@@ -50,3 +50,14 @@ local EspSection = ESP:NewSection("ESP")
 EspSection:NewButton("ESP", "Simple ESP", function()
 loadstring(game:HttpGet("https://raw.githubusercontent.com/DylanIsAKingL/Lua-Scripts/main/Customizable-Esp.lua"))()
 end)
+
+
+
+--RemX
+local Remx = Window:NewTab("RemX")
+local RemxSection = Remx:NewSection("Remx")
+
+
+RemxSection:NewButton("Remx", "RemX, multi tool GUI, many features
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Henry887/RemX-Script-Hub/main/main.lua'),true))()
+end)
