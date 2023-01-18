@@ -1087,3 +1087,8 @@ end
 
 game.RunService.Heartbeat:Connect(Toggling)
 end)
+
+
+ESection:NewButton("Fling All", "Mega Fling", function()
+loadstring(game:HttpGet('https://github.com/DigitalityScripts/roblox-scripts/raw/main/loop%20fling%20all'))()
+end)
