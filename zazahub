@@ -53,6 +53,15 @@ end)
 
 
 
+--Jailbreak
+local Jail = Window:NewTab("Jailbreak")
+local JailSection = Jail:NewSection("Jailbreak")
+
+JailSection:NewButton("Jailbreak Script", "OP", function()
+loadstring(game:HttpGet('https://scripts.luawl.com/14245/JailbreakerFree.lua'))()
+end)
+
+
 --Trolling
 local E = Window:NewTab("Trolling")
 local ESection = E:NewSection("Trolling")
