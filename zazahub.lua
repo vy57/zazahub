@@ -1,5 +1,12 @@
---Made by Sole's
+--notif
 
+
+local Icy = loadstring(game:HttpGet('https://raw.githubusercontent.com/SeasonalKirito/UI-s/main/Notifications/Icy.folder/Icy.lua'))()
+
+notify("ZazaHub", "Loaded ZazaHub", 5) -- Title, Description, Time
+
+
+--Made by Sole's
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("ZAZA GUI", "GrapeTheme")
 
